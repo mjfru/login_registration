@@ -1,0 +1,27 @@
+* {
+    margin: 0px auto;
+    font-family: monospace;
+}
+
+#wrapper {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+span {
+    font-family: 'Major Mono Display', monospace;
+}
+
+#intro {
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}

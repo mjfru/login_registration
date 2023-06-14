@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='dash_style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Oxygen&display=swap" rel="stylesheet">
+    <title>{{session['name']}}'s Page</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h1 id="intro">Welcome to your <span>AstroSocial</span> page,<br> <span>{{session['name']}}</span></h1>
+        <p>Unfortunately, this site is still under construction.<br> You can still take advantage of our most popular feature, the <strong>LOG OUT</strong> button, and have the peace of mind that your password is safe and secure in our database.</p>
+        <form action="/logout">
+            <input type="submit" name="logout" value="Log Out" class="btn btn-info btn-lg">
+        </form>
+    </div>
+</body>
+</html>

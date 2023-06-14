@@ -1,0 +1,53 @@
+* {
+    margin: 0px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.box_head {
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+}
+
+#wrapper {
+    width: 800px;
+    display: flex;
+    text-align: center;
+}
+
+#register{
+    border: 6px solid grey;
+    flex: 2;
+    margin-right: 40px;
+    padding: 20px;
+    background-color: black;
+}
+
+#login {
+    border: 8px solid grey;
+    flex: 1.5;
+    padding: 20px;
+    background-color: black;
+    /* margin-left: 20px; */
+}
+
+label {
+    color: white;
+    font-family: monospace;
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: monospace;
+    color:crimson;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    font-family: monospace;
+}
